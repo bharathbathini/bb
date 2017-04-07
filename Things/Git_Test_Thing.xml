@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-07T15:57:19.935+05:30" name="Git_Test_Thing" projectName="" published="false" tags="Git:Test;Version:v1.1" thingTemplate="GenericThing" valueStream="">
+        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-07T17:59:42.092+05:30" name="Git_Test_Thing" projectName="" published="false" tags="Git:Test;Version:v1.1" thingTemplate="GenericThing" valueStream="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -23,6 +23,7 @@
                         <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
                         <ParameterDefinitions>
                             <FieldDefinition baseType="STRING" description="" name="inn" ordinal="1"/>
+                            <FieldDefinition baseType="STRING" description="" name="t2" ordinal="2"/>
                         </ParameterDefinitions>
                     </ServiceDefinition>
                 </ServiceDefinitions>
@@ -59,6 +60,7 @@
                 <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, tags : updated, thingTemplate : updated&#10;documentation : updated&#10;" timestamp="2017-04-07T15:32:15.810+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="services : test : Service Added&#10;" timestamp="2017-04-07T15:38:12.643+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="services : test : Input parameter inn Added, Inputs updated&#10;" timestamp="2017-04-07T15:57:19.935+05:30" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="services : test : Input parameter t2 Added, Inputs updated&#10;" timestamp="2017-04-07T17:59:42.092+05:30" user="Administrator"/>
             </ConfigurationChanges>
         </Thing>
     </Things>
