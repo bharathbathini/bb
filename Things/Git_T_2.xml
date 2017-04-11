@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-11T12:03:30.847+05:30" name="Git_T_2" projectName="" published="false" tags="Git:Test" thingTemplate="GenericThing" valueStream="">
+        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-11T12:04:23.517+05:30" name="Git_T_2" projectName="" published="false" tags="Git:Test" thingTemplate="GenericThing" valueStream="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -17,7 +17,9 @@
             </VisibilityPermissions>
             <ConfigurationTables/>
             <ThingShape>
-                <PropertyDefinitions/>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="p1" ordinal="1"/>
+                </PropertyDefinitions>
                 <ServiceDefinitions>
                     <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="S_T1">
                         <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
@@ -50,12 +52,15 @@
             <RemotePropertyBindings/>
             <RemoteServiceBindings/>
             <RemoteEventBindings/>
-            <AlertConfigurations/>
+            <AlertConfigurations>
+                <AlertDefinitions name="p1"/>
+            </AlertConfigurations>
             <ImplementedShapes/>
             <ThingProperties/>
             <ConfigurationChanges>
                 <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, thingTemplate : updated, tags : updated&#10;documentation : updated&#10;" timestamp="2017-04-11T11:16:40.061+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="documentation : updated&#10;services : S_T1 : Service Added&#10;" timestamp="2017-04-11T12:03:30.847+05:30" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : p1 : Added&#10;" timestamp="2017-04-11T12:04:23.517+05:30" user="Administrator"/>
             </ConfigurationChanges>
         </Thing>
     </Things>
