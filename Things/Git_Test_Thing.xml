@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-14T12:37:04.289+05:30" name="Git_Test_Thing" projectName="" published="false" tags="Git:Test;Version:v1.2" thingTemplate="GenericThing" valueStream="">
+        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-14T12:40:07.666+05:30" name="Git_Test_Thing" projectName="" published="false" tags="Git:Test;Version:v1.2" thingTemplate="GenericThing" valueStream="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -59,7 +59,7 @@
                                     </DataShape>
                                     <Rows>
                                         <Row>
-                                            <code><![CDATA[logger.info(me.name+" Subscription ");]]></code>
+                                            <code><![CDATA[logger.info(me.name+" Subscription "+eventData.newValue);]]></code>
                                         </Row>
                                     </Rows>
                                 </ConfigurationTable>
@@ -105,6 +105,7 @@
                 <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-04-14T11:59:30.486+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="subscriptions : New subscription : Enabled&#10;" timestamp="2017-04-14T12:01:17.295+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="subscriptions : Git_T_2:p1.DataChange : Disabled&#10;" timestamp="2017-04-14T12:37:04.289+05:30" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-04-14T12:40:07.666+05:30" user="Administrator"/>
             </ConfigurationChanges>
         </Thing>
     </Things>
