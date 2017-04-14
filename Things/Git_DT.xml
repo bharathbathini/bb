@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="DataTableThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-14T12:36:32.321+05:30" name="Git_DT" projectName="" published="false" tags="Git:Test" thingTemplate="DataTable" valueStream="">
+        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="DataTableThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-14T12:38:08.288+05:30" name="Git_DT" projectName="" published="false" tags="Git:Test" thingTemplate="DataTable" valueStream="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -55,7 +55,7 @@
             </ConfigurationTables>
             <ThingShape>
                 <PropertyDefinitions>
-                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="ALWAYS" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="DATETIME" category="" description="" isLocalOnly="false" name="Count" ordinal="1"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="ALWAYS" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="DATETIME" category="" description="" isLocalOnly="false" name="Count" ordinal="1"/>
                 </PropertyDefinitions>
                 <ServiceDefinitions/>
                 <EventDefinitions/>
@@ -92,7 +92,13 @@
                 <AlertDefinitions name="Count"/>
             </AlertConfigurations>
             <ImplementedShapes/>
-            <ThingProperties/>
+            <ThingProperties>
+                <Count>
+                    <Value>2017-04-14T12:38:25.115+05:30</Value>
+                    <Timestamp>2017-04-14T12:38:25.115+05:30</Timestamp>
+                    <Quality>GOOD</Quality>
+                </Count>
+            </ThingProperties>
             <ConfigurationChanges>
                 <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, tags : updated&#10;documentation : updated&#10;configuration : persistenceProvider : updated, dataShape : updated&#10;" timestamp="2017-04-11T12:39:26.294+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="documentation : updated&#10;properties : Count : Added&#10;" timestamp="2017-04-14T11:51:42.688+05:30" user="Administrator"/>
@@ -103,6 +109,7 @@
                 <ConfigurationChange changeAction="MODIFY" changeReason="properties : Count : Updated&#10;" timestamp="2017-04-14T12:07:59.862+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="properties : Count : Updated&#10;" timestamp="2017-04-14T12:14:39.332+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="subscriptions : New subscription : Disabled&#10;" timestamp="2017-04-14T12:36:32.321+05:30" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : Count : Updated&#10;" timestamp="2017-04-14T12:38:08.288+05:30" user="Administrator"/>
             </ConfigurationChanges>
         </Thing>
     </Things>
