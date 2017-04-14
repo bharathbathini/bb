@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="DataTableThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-14T12:14:39.332+05:30" name="Git_DT" projectName="" published="false" tags="Git:Test" thingTemplate="DataTable" valueStream="">
+        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="DataTableThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-14T12:36:32.321+05:30" name="Git_DT" projectName="" published="false" tags="Git:Test" thingTemplate="DataTable" valueStream="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -62,7 +62,7 @@
                 <ServiceMappings/>
                 <ServiceImplementations/>
                 <Subscriptions>
-                    <Subscription enabled="true" eventName="AnyDataChange" source="" sourceProperty="">
+                    <Subscription enabled="false" eventName="AnyDataChange" source="" sourceProperty="">
                         <ServiceImplementation description="" handlerName="Script" name="AnyDataChange">
                             <ConfigurationTables>
                                 <ConfigurationTable description="" isMultiRow="false" name="Script" ordinal="0">
@@ -102,6 +102,7 @@
                 <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-04-14T12:00:23.390+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="properties : Count : Updated&#10;" timestamp="2017-04-14T12:07:59.862+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="properties : Count : Updated&#10;" timestamp="2017-04-14T12:14:39.332+05:30" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="subscriptions : New subscription : Disabled&#10;" timestamp="2017-04-14T12:36:32.321+05:30" user="Administrator"/>
             </ConfigurationChanges>
         </Thing>
     </Things>
