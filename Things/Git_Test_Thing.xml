@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-13T11:53:27.771+05:30" name="Git_Test_Thing" projectName="" published="false" tags="Git:Test;Version:v1.2" thingTemplate="GenericThing" valueStream="">
+        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-14T11:53:56.918+05:30" name="Git_Test_Thing" projectName="" published="false" tags="Git:Test;Version:v1.2" thingTemplate="GenericThing" valueStream="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -48,7 +48,25 @@
                     </ServiceImplementation>
                 </ServiceImplementations>
                 <Subscriptions>
-                    <Subscription enabled="true" eventName="DataChange" source="Git_T_2" sourceProperty="p1">
+                    <Subscription enabled="true" eventName="DataChange" source="Git_DT" sourceProperty="Count">
+                        <ServiceImplementation description="" handlerName="Script" name="Git_DT:Count.DataChange">
+                            <ConfigurationTables>
+                                <ConfigurationTable description="" isMultiRow="false" name="Script" ordinal="0">
+                                    <DataShape>
+                                        <FieldDefinitions>
+                                            <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                        </FieldDefinitions>
+                                    </DataShape>
+                                    <Rows>
+                                        <Row>
+                                            <code><![CDATA[logger.info(me.name+" Subscription "+ done);]]></code>
+                                        </Row>
+                                    </Rows>
+                                </ConfigurationTable>
+                            </ConfigurationTables>
+                        </ServiceImplementation>
+                    </Subscription>
+                    <Subscription enabled="false" eventName="DataChange" source="Git_T_2" sourceProperty="p1">
                         <ServiceImplementation description="" handlerName="Script" name="Git_T_2:p1.DataChange">
                             <ConfigurationTables>
                                 <ConfigurationTable description="" isMultiRow="false" name="Script" ordinal="0">
@@ -82,6 +100,7 @@
                 <ConfigurationChange changeAction="MODIFY" changeReason="services : test : Input parameter t2 Added, Inputs updated&#10;" timestamp="2017-04-07T17:59:42.092+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="documentation : updated&#10;subscriptions : New subscription : Source updated, Code Updated, Git_T_2:p1.DataChange : New subscription, Subscription Added&#10;" timestamp="2017-04-13T11:53:22.396+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-04-13T11:53:27.771+05:30" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="subscriptions : Git_T_2:p1.DataChange : Disabled, New subscription : Source updated, Code Updated, Git_DT:Count.DataChange : New subscription, Subscription Added&#10;" timestamp="2017-04-14T11:53:56.918+05:30" user="Administrator"/>
             </ConfigurationChanges>
         </Thing>
     </Things>
