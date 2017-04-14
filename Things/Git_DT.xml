@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="DataTableThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-14T11:56:40.460+05:30" name="Git_DT" projectName="" published="false" tags="Git:Test" thingTemplate="DataTable" valueStream="">
+        <Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="DataTableThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-04-14T12:00:23.390+05:30" name="Git_DT" projectName="" published="false" tags="Git:Test" thingTemplate="DataTable" valueStream="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -98,6 +98,8 @@
                 <ConfigurationChange changeAction="MODIFY" changeReason="documentation : updated&#10;properties : Count : Added&#10;" timestamp="2017-04-14T11:51:42.688+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="subscriptions : New subscription : Code Updated, AnyDataChange : New subscription, Subscription Added&#10;" timestamp="2017-04-14T11:55:31.478+05:30" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-04-14T11:56:40.460+05:30" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-04-14T12:00:08.125+05:30" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-04-14T12:00:23.390+05:30" user="Administrator"/>
             </ConfigurationChanges>
         </Thing>
     </Things>
